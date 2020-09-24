@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+.header {
+    height: 45px;
+    background-color: pink;
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    width: 198px;
+    height: 45px;
+    background-color: purple;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.nav ul li {
+    float: left;
+    margin: auto 15px;
+}
+
+.nav ul li a {
+    display: block;
+    padding: 0 10px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #050505;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #4f4f4f;
+}
+
+
+/*search 搜索模块 */
+
+.search {
+    width: 412px;
+    height: 42px;
+    background-color: ;
+}
