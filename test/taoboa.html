@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .tb-promo {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        background-color: darkgoldenrod;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    
+    .prev {
+        display: block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin-top: -5px;
+        background-color: darkgray;
+        border-radius: 0 5px 5px 0;
+    }
+    
+    .next {
+        display: block;
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -5px;
+        background-color: darkgray;
+        border-radius: 5px 0 0 5px;
+        text-decoration: none;
+    }
+    
+    .promo-nav {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        margin-left: -35px;
+        width: 70px;
+        height: 13px;
+        /* background-color: darkgreen; */
+        background: rgba(255, 255, 255, 0.3);
+        border-radius: 7px;
+    }
+    
+    .promo-nav li {
+        float: left;
+        width: 13px;
+        height: 13px;
+        background-color: #fff;
+        border-radius: 13px;
+        margin-left: 3px;
+    }
+</style>
+
+<body>
+    <div class="tb-promo">
+        <a class="prev" href=""></a>
+        <a class="next" href=""></a>
+        <ul class="promo-nav">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    .clead {
+        width: 200px;
+        background-color: lavender;
+    }
+    
+    .clead li {
+        float: left;
+        width: 100px;
+        height: 20px;
+        /* background-color: lawngreen; */
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+    
+    .clearfix {
+        /* 为了兼容IE6、7 */
+        *zoom: 1;
+    }
+    
+    .clearfix::before {
+        content: "";
+        display: table;
+    }
+    
+    .clearfix:after {
+        clear: both;
+        content: "";
+        display: block;
+        visibility: hidden;
+        height: 0;
+    }
+    
+    .clearfix:after {
+        *zoom: 1;
+    }
+</style>
+
+<body>
+    <div class="clead">
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+        <div style="clear:both">
+
+        </div>
+</body>
+
+</html>

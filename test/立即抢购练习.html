@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .box {
+            width: 200px;
+            height: 500px;
+            background-color: blanchedalmond;
+        }
+        
+        .box img {
+            width: 100%;
+            height: 200px;
+        }
+        
+        .box h2 {
+            font-size: 14px;
+            color: whitesmoke;
+        }
+        
+        .box .one {
+            font-size: 14px;
+            font-weight: 500;
+            color: red;
+        }
+        
+        .box a {
+            display: inline-block;
+            width: 100%;
+            height: 20px;
+            background-color: brown;
+            font-size: 16px;
+            color: white;
+            line-height: 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        
+        .bar {
+            width: 50px;
+            height: 10px;
+            border-radius: 20px;
+            border: 1px solid;
+            /* padding: 1px; */
+        }
+        
+        .bar_in {
+            width: 25px;
+            height: 100%;
+            background-color: black;
+            transition: width .5s;
+        }
+        
+        .bar_in:hover {
+            width: 50px;
+        }
+        
+        .info {
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="" alt="">
+        <h2>apple苹果手机</h2>
+        <p>
+            <span class="one">价格1</span>
+            <del>价格二</del>
+        </p>
+        <div>
+            <div class="info">已售 87%</div>
+
+            <div class="bar info">
+                <div class="bar_in"></div>
+            </div>
+            剩余 29 件
+        </div>
+
+        <a href="">立即抢购</a>
+    </div>
+</body>
+
+</html>
