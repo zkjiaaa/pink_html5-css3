@@ -68,3 +68,79 @@
     background: url('../images/logo.png') no-repeat;
     font-size: 0;
 }
+
+/* 搜索框 */
+.search {
+    position: absolute;
+    left: 347px;
+    top: 27px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+/* 搜索 */
+.search input{
+    float: left;
+    border: 0px;
+    padding-left: 10px;
+    width: 454px;
+    height: 36px;
+}
+.search button{
+    float: left;
+    display: block;
+    width: 74px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    border: 0px;
+    background-color: #b1191a;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* 热词 */
+.hotwords {
+    position: absolute;
+    top: 75px;
+    left: 348px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+/* 购物车 */
+.shopcar{
+    position: absolute;
+    right: 60px;
+    top: 26px;
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #666; 
+    background-color: #f7f7ff;
+}
+.shopcar::before{
+    content: '\e93a';
+    font-family: icomoon;
+    margin-right: 5px;
+    color: #b1191a;
+}
+.shopcar::after{
+    content: '\e920';
+    font-family: icomoon;
+    margin-left: 5px;
+}
+.count {
+    position: absolute;
+    top: -5px;
+    height: 14px;
+    line-height: 14px;
+    background-color: #e60012;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 7px 7px 7px 0;
+    font-style: normal;
+}

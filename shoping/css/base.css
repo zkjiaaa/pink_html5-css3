@@ -203,6 +203,7 @@ a:hover {
 
 ins,
 a {
+    color: #666;
     text-decoration: none;
 }
 
